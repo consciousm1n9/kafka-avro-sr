@@ -1,0 +1,15 @@
+{
+	"namespace" : "com.demo.models",
+	"type" : "record",
+	"name" : "UserAvro",
+	"fields" : [
+		{
+			"name" : "name",
+			"type" : "string"
+		},
+		{
+			"name" : "age",
+			"type" : "int"
+		}
+	] 
+}
