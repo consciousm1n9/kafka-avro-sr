@@ -1,7 +1,11 @@
 # kafka-avro-sr
-Based on simplest kafka docker example but now adding schema registry and avro serialization.
+Based on simplest kafka docker example but now adding schema registry and avro serialization and stream cloud.
 
-This example consists in Kafka and zookeeper docker containers and a producer/consumer springboot proyect for test. A simple object model called "User" is produced/consumed using default String-json serialization.
+This proyect based on docker containers and a producer/consumer springboot proyect for test. Include: 
+  - Example using Kafka + zookeeper (Ser/Des: 'String/Json')
+  - Example using Kafka + zookeeper + avro (Ser/Des: 'String/Avro')
+  - Example using Kafka + zookeeper + avro + schemaregistry
+  - Example using Default Kafka Stream + zookeeper + avro + schemaregistry
 
 Instruction:
 1. For execute Kafka and zookeeper containers run next command into root path of this repository: 
