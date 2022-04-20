@@ -36,4 +36,21 @@ For GUI view you can use Kafka tool\Offset Explorer (https://www.kafkatool.com/d
 ![image](https://user-images.githubusercontent.com/67773113/162332686-c534bc3f-7a6a-4f0c-8097-90681d038c4c.png)
 
 Documentation
+Kafka with docker
 - https://www.baeldung.com/ops/kafka-docker-setup
+
+Pocs
+-> simples docker kafka example
+- https://gitlab.pro.pandora.mx.corp/mx-santander-nrtpoc/kafka-post-service
+- https://www.tutorialspoint.com/apache_kafka/apache_kafka_simple_producer_example.htm
+- https://www.baeldung.com/kafka-custom-serializer
+- https://howtodoinjava.com/kafka/multiple-consumers-example/
+
+-> Kafka+avro ser/des
+- https://codenotfound.com/spring-kafka-apache-avro-serializer-deserializer-example.html
+- https://medium.com/@mailshine/apache-avro-quick-example-in-kafka-7b2909396c02
+
+-> Kafka avro stream schema registry
+- https://medium.com/@sunilvb/spring-boot-kafka-schema-registry-c6e32485a7c8
+- https://www.baeldung.com/spring-cloud-stream-kafka-avro-confluent
+- https://github.com/Binisicaru/KafkaLabAvroProducer
